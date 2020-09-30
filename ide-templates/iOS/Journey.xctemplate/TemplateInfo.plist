@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>Backbase Flow Journey blueprint</string>
+	<key>Summary</key>
+	<string>Backbase Flow Journey blueprint</string>
+	<key>SortOrder</key>
+	<string>7</string> 
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>journeyName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Journey name:</string>
+			<key>Description</key>
+			<string>The name of the journey to create. Journey, Router, Configuration, Screen, UseCase will be created.</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+	</array>    
+</dict>
+</plist>

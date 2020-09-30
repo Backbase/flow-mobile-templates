@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<template format="5"
+		revision="3"
+		name="Journey"
+		description="Creates Journey, Router, Configuration, Screen, ViewModel and UseCase classes">
+
+	<category value="Backbase"/>
+ 
+	<parameter id="className"
+		name="Journey name"
+		type="string"
+		constraints="class|unique|nonempty"
+		default=""
+		help="The name of the journey"/>
+ 
+	<globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+ 
+</template>
